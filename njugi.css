@@ -1,0 +1,817 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    width: 100%;
+}
+
+@media (max-width:700px){
+
+
+    #hi{
+        font-size: 37%;
+    }
+
+    #ho, #sy, #ps, #pe, #al, #ga, #cc{
+        font-size: 37%;
+    }
+
+
+    #grtd{
+        font-size: 37%;
+    }
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    position: static;
+}
+
+h2{
+    position: static;
+}
+
+h3{
+    position: static;
+}
+
+a{
+   color: aqua;
+}
+
+/*HERO/HEAD */
+.hero-image{
+    background-color: black;
+    background-image: url("img2/code-setup.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.hero-text {
+    text-align: center;
+    padding: 147px 10px 147px 47px;
+    color: white;
+    width: 95%;
+}
+
+.hero-text:hover{
+    text-align: center;
+    text-shadow : 8px 8px 10px red;
+    text-size-adjust: 70px;
+    
+}
+
+#bt{
+    padding: 7px;
+    height: 57px;
+    width: 100px;
+    display: inline-block;
+    border: 4px solid rgb(214, 32, 32);
+    background-color: white;
+    margin: 10px;
+}
+
+#bt:hover{
+    opacity: 0.57;
+}
+
+#by{
+    height: 57px;
+    width: 100px;
+    display: inline-block;
+    border: 4px solid rgb(214, 32, 32);
+    background-color: white;
+    margin: 10px;
+}
+
+#by:hover{
+    opacity: 0.57;
+}
+
+#bi{
+    height: 57px;
+    width: 100px;
+    display: inline-block;
+    border: 4px solid rgb(214, 32, 32);
+    background-color: white;
+    margin: 10px;
+}
+
+#bi:hover{
+    opacity: 0.57;
+}
+
+#tyy{
+    background-image: url("img/DEV.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* END */
+
+
+/* PANEL AND HEADER */
+
+#panel{
+    display: none;
+    width: 83%;
+    height: 700px;
+    background-color: black;
+    opacity: 0.87;
+    position: relative;
+    color: white;
+    padding: 50px 4px 37px 3px;
+    text-align: left;
+    font-size: 47px;
+    margin: 0;
+    z-index: 1;
+    overflow: auto;
+    font-size: 47px;
+}
+
+@media (max-width:450px){
+    #panel{
+        height: 930px;
+    }
+}
+
+.ppl:hover{
+    font-size: 123%;
+    text-shadow: 4px 4px 9px red;
+}
+
+#hd{
+    width: auto;
+    height: 43px;
+    background-color: black;
+    border-bottom: 2px solid black;
+    position: sticky;
+    top: 0;
+    opacity: 0.87;
+}
+
+#bn{
+    float: right;
+    margin: 2px 0 5px 0;
+    height: 37px;
+    width: 60px;
+    background-image: url("img/hamblue.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bn:hover{
+    opacity: 0.7;
+}
+
+#bz{
+    height: 37px;
+    width: 60px;
+    top: 0;
+    float: left;
+    background-image: url("img/BNLOGO.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+#bz:hover{
+    opacity: 0.7;
+    
+}
+
+#hdd{
+    width: 100%;
+    color: white;
+    text-shadow: 4px 4px 5px aqua;
+}
+
+
+#hdd:hover{
+    text-shadow: 7px 7px 5px red;
+}
+
+/* END */
+
+
+/* SLIDE UP ANIMATION */
+.slideUp {
+    animation-name: sideUp;
+    animation-duration: 1.5s;
+    visibility: visible;
+    flex-basis: 47%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-size: 40px;
+    margin: 10px 10px 10px 10px;
+}
+  
+@keyframes sideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+}
+
+
+/* SPEICIALITIES */
+.side{
+    height: auto;
+    margin: 0%;
+    background-image: url("img2/mado-el-khouly-MA8YoAoKpfY-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    padding: 10px;
+    color: white;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width:450px){
+    .na{
+        font-size: 37%;
+    }
+
+    .la{
+        font-size: 37%;
+    }
+
+    #grr{
+        font-size: 37%;
+    }
+    
+    #ha{
+        font-size: 37%;
+    }
+
+    #gd{
+        font-size: 37%;
+    }
+}
+
+#sidea{
+    text-align: center;
+    flex-basis: 97%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    border-bottom: 3px solid white;
+
+}
+
+#sideb{
+    flex-basis: 47%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-size: 40px;
+    margin: 10px 10px 10px 10px;
+    visibility: hidden;
+   
+}
+
+#sidec{
+    flex-basis: 47%;
+    flex-grow: 0;
+    flex-shrink: 1;
+    font-size: 40px;
+    margin: 10px 10px 10px 10px;
+    
+}
+
+.na:hover{
+    font-size: 42px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 4px 4px 7px red;
+}
+
+.la:hover{
+    font-size: 42px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 4px 4px 7px red;
+}
+/* END */
+
+
+/* PROFESSIAL PROFILE/GRAD */
+.grad{
+    height: auto;
+    width: auto;
+    margin: 0;
+    background-image: url("img2/dark\ laptop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 37px;
+}
+
+.gh{
+    border-bottom: 4px solid white;
+    padding: 10px 7px 7px 7px;
+    
+}
+
+.gd{
+    width: 92%;
+    display: inline-block;
+    padding: 67px 17px 57px 37px;
+    text-align: justify;
+   
+}
+
+/* END */
+
+
+/* PORTFOLIO */
+.dp{
+    padding: 47px 17px 147px 17px; 
+    margin: 0;
+    background-color: black;
+    height: auto;
+    width: 100%;
+    font-size: 27px;
+    background-image: url('img2/motherboard.jpg');
+    background-position: contain;
+    background-repeat: no-repeat;;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pj{
+    height: 87px;
+    width: 87px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin: 5px 10px 10px 10px;
+    border-radius: 50px;
+    padding: 30px 20px 20px 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+.pi{
+    margin: 32px 2px 5px 0px;
+    height: 47px;
+    width: 70px;
+    color: white;
+    font-size: 37px;
+}
+
+.pi:hover{
+    text-shadow: 7px 7px 8px aqua;
+}
+
+#pkk{
+    background-image: url("img/python1.jpg");
+    border: 3px solid rgb(25, 85, 249);
+}
+
+#hkk{
+    background-image: url("img/JS.jpg");
+    border: 3px solid black;
+}
+
+#ckk{
+    background-image: url("img/CSS.jpg");
+    border: 3px solid black;
+}
+
+#jkk{
+    background-image: url("img/React.jpg");
+    border: 3px solid aqua;
+}
+
+#jkr{
+    background-image: url("img/NAME-kOTLIN.jpg");
+    border: 3px solid tomato;
+}
+
+#jkt{
+    background-image: url("img2/sql.jpg");
+    border: 3px solid yellow;
+}
+
+#jtt{
+    background-image: url("img/AngularJS-Icon.png");
+    border: 3px solid red;
+}
+
+#pq{
+    background-image: url("img/websites.jpeg");
+    border: 3px solid black;
+}
+
+#pw{
+    background-image: url("img/clients.jpeg");
+    border: 3px solid black;
+}
+
+#pr{
+    background-image: url("img/black-projcts.jpeg");
+    border: 3px solid white;
+}
+
+#pt{
+    background-image: url("img/work-in-progress.jpeg");
+    border: 3px solid black;
+}
+
+
+.dp{
+    overflow: auto;
+}
+
+#b1{
+    border-radius: 2 0 10px 0;
+}
+
+@media (max-width:450px){
+    #poo{
+        display: none;
+    }
+}
+
+/* END */
+
+
+/* GAllERY */
+.a1{
+    scroll-snap-type: mandatory;
+    overflow-x: scroll;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    
+}
+
+.slide{
+    width: 100vw;
+    scroll-snap-align: start;
+    height: 500px;
+}
+
+/* END */
+
+
+/* ALBUM WALL */
+
+#album{
+    height: auto;
+    width: auto;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    background-image: url("imgc/vlad-bunu-d2Q0ZXnWI_c-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: black;
+    padding: 15px;
+}
+
+
+
+@media (max-width:600px){
+    #albw{
+        display: none;
+    }
+    #albl{
+        display: none;
+    }
+    #albx{
+        display: none;
+    }
+
+    .albicom{
+        height: 77px;
+        width: 77px;
+    }
+
+    .albicon{
+        height: 77px;
+        width: 77px;
+    }
+}
+
+
+.albicom{
+    height: 127px;
+    width: 127px;
+    border-radius: 5px;
+    margin: 10px 0 15px 7px;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: aty;
+}
+
+.albicon{
+    height: 127px;
+    width: 127px;
+    border-radius: 5px;
+    margin: 10px 7px 10px 7px;
+    position: relative;
+    display: inline-block;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: atd;
+}
+
+
+#albe{
+    background-image: url("img/Spotify_App_Logo.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    height: 97px;
+    width: 97px;
+    border-radius: 15px;
+    position: relative;
+}
+
+#alba{
+    background-image: url("imga/lucky-you.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation-duration: 11s;
+    border: 3px solid black;
+}
+
+
+#albb{
+    background-image: url("imga/MR-MORALE.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation-duration: 14s;
+    border: 3px solid black;
+}
+
+#albc{
+    background-image: url("imga/midnight-train.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation-duration: 7.2s;  
+    border: 3px solid yellow; 
+}
+
+#albd{
+    background-image: url("imga/Roots.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation-duration: 9.2s;
+    border: 3px solid aqua;
+}
+
+#albg{
+    background-image: url("imga/SZA-CTRL-album-640x480.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation-duration: 8.2s;
+    border: 3px solid green;
+}
+
+@keyframes aty {
+    0%   { left:0px; top:0px;}
+    25%  {left:35%; top:0px;}
+    50%  {left:50%; top:0px;}
+    75%  { left:67%; top:0px;}
+    100% { left:0px; top:0px;}
+}
+
+#albe:hover {
+    opacity: 0.57;
+}
+
+#albz{
+    background-image: url("img/Ub40.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation-duration: 14s;
+    border: 3px solid black;
+}
+
+#alby{
+    background-image: url("imga/Graduation.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation-duration: 17s;
+    border: 3px solid white;
+}
+
+#albx{
+    background-image: url("imga/ELLA-MEI.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation-duration: 19s;
+    border: 3px solid black;
+}
+
+#albw{
+    background-image: url("imga/SECTION80.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation-duration: 14s;
+    border: 3px solid black;
+}
+
+#albj{
+    background-image: url("imga/more-life.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation-duration: 11s;
+    border: 3px solid rgb(19, 96, 185);
+}
+
+#albk{
+    background-image: url("imga/chronology.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation-duration: 17s;
+    border: 3px solid black;
+}
+
+#albl{
+    background-image: url("imga/African-Giant.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation-duration: 7.4s;
+    border: 3px solid black;
+}
+
+#albm{
+    background-image: url("imga/4-44.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation-duration: 13s;
+    border: 3px solid black;
+}
+
+#albn{
+    background-image: url("imga/Rihanna_-_Loud.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation-duration: 16s;
+    border: 3px solid white;
+}
+
+
+@keyframes atd {
+    0%  {bottom: 0px;}
+    25%{bottom: 220px;}
+    50%{bottom: 500px;}
+    75%{bottom: 750px;}
+    100%{bottom: 0px;}
+}
+
+
+/* END */
+
+/* CONTACT */
+
+@media (max-width:520px){
+    #foot{
+        display : none;
+    }
+    #mobilefoot{
+        height: 670px;
+        background-color: black;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        display: inline-block;
+    }
+}
+
+@media (min-width:520px){
+    #mobilefoot{
+        display: none;
+    }
+}
+
+#foot{
+    margin: 0;
+    height: auto;
+    width: auto;
+    background-color: grey;
+    background-image: url("img2/malte-schmidt-enGr5YbjQKQ-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:white;
+    font-size: 40px;
+    padding: 57px 7px 160px 7px;
+}
+
+
+.ft{
+    text-align: center;
+}
+
+
+.ftt{
+    height: 87px;
+    width: 87px;
+    border-radius: 27px;
+    padding: 5px 8px 8px 17px;
+    margin: 9px;
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;;
+    background-size: cover;
+}
+
+.ftt:hover{
+    opacity: 0.67;
+}
+
+.fdd{
+    height: 43px;
+    width: 44px;
+    border-radius: 47px;
+    padding: 5px 8px 8px 6px;
+    margin: 9px;
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;;
+    background-size: cover;
+    text-align: center;
+}
+
+.fdd:hover{
+    opacity: 0.67;
+}
+
+.mfoot{
+    text-align: center;
+    margin: 15px 18px 18px 16px;
+}
+
+#ig{
+    background-image: url("imga/IG.gif");
+}
+
+#tw{
+    background-image: url("img/Twitter.jpg");
+}
+
+#fb{
+    background-image: url("img/FB.jpg");
+   
+}
+
+#em{
+    background-image: url("img/IN.jpg");
+}
+
+#lo{
+    background-image: url("img/Github.jpg");
+}
+
+#rd{
+    background-image: url("img/Reddit.jpg");
+}
+
+#spo{
+    background-image: url("img/Spotify.jpg");
+}
+
+#bts:hover{
+    opacity: 0.67;
+}
+
+
+/* END */
+    
